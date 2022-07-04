@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191919;
+  overflow: hidden;
+}
+
+.circle-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.circle-button {
+  width: 148px;
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 50%;
+  cursor: pointer;
+}
+
+#color-blue {
+  background-color: blue;
+}
+
+#color-blue.active {
+  background-color: #2961fc;
+}
+
+#color-red {
+  background-color: red;
+}
+
+#color-red.active {
+  background-color: #ff6348;
+}
+
+#color-yellow {
+  background-color: yellow;
+}
+
+#color-yellow.active {
+  background-color: #f5d787;
+}
+
+#color-green {
+  background-color: green;
+}
+
+#color-green.active {
+  background-color: #3cfa15;
+}
+
+.points-area {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-area {
+  margin-top: 20px;
+}
+
+.button-area button {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  color: white;
+  background-color: darkgoldenrod;
+  border-radius: 8px;
+  transition: background ease-in-out 0.3s;
+  text-transform: uppercase;
+}
+
+.button-area button:hover {
+  background-color: #83620e;
+}
